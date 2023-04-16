@@ -1,5 +1,3 @@
-package test;
-
 import entity.Card;
 import org.junit.Test;
 
@@ -16,6 +14,6 @@ public class TestCard {
     @Test
     public void testToString() {
         Card card = new Card("S", "J");
-        assertEquals("JS", card.toString());
+        assertEquals("J of S", card.toString());
     }
 }

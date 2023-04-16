@@ -1,5 +1,3 @@
-package test;
-
 import entity.Card;
 import entity.Player;
 import org.junit.Test;

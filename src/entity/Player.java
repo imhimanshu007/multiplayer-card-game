@@ -1,8 +1,10 @@
+package entity;
+
 import java.util.ArrayList;
 
 public class Player {
-    private final String name;
-    private final ArrayList<Card> hand;
+    private String name;
+    private  ArrayList<Card> hand;
 
     public Player(String name) {
         this.name = name;

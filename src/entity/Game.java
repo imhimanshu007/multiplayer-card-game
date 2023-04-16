@@ -1,3 +1,5 @@
+package entity;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -19,7 +21,7 @@ public class Game {
 
         // Initialize players with 5 cards each
         for (int i = 0; i < 4; i++) {
-            Player player = new Player("Player " + (i+1));
+            Player player = new Player("entity.Player " + (i+1));
             for (int j = 0; j < 5; j++) {
                 Card card = deck.dealCard();
                 player.addCardToHand(card);

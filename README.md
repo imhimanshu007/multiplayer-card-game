@@ -1,2 +1,2 @@
 # multiplayer-card-game
-Run the main method in the entity.Game Class.
+Run the main method of the Game Class 

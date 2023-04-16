@@ -10,6 +10,10 @@ public class Card {
         this.rank = rank;
         this.value = value;
     }
+    public Card(String suit, String rank) {
+        this.suit = suit;
+        this.rank = rank;
+    }
 
     public String getSuit() {
         return suit;
